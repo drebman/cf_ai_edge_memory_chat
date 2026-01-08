@@ -1,0 +1,9 @@
+name = "cf-ai-edge-memory-chat"
+main = "worker/index.ts"
+
+[[durable_objects.bindings]]
+name = "MEMORY"
+class_name = "Memory"
+
+[[ai]]
+binding = "AI"
